@@ -1,0 +1,24 @@
+.timeSeriesChartV2-content .widget-timeSeriesChartV2{
+    padding: .25em 1em 1em 1em;
+    margin: .25em 1em 1em 1em;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+}
+
+@media screen and (min-width:0\0) {
+    .widget-timeSeriesChartV2 {
+        top: -1px;
+    }
+}
+
+.timeSeriesChartV2-content {
+    overflow: hidden;
+}
+
+.widget-timeSeriesChartV2 {
+    overflow: hidden;
+}

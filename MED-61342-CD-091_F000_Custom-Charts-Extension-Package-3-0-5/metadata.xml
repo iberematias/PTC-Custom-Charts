@@ -1,0 +1,40 @@
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage name="chartWidget_ExtensionPackage"
+                      description="Chart Widgets"
+                      vendor="ThingWorx R+D"
+                      packageVersion="3.0.5"
+                      minimumThingWorxVersion="7.0.0">
+    </ExtensionPackage>
+  </ExtensionPackages>
+  <Widgets>
+    <Widget name="barChart">
+      <UIResources>
+        <FileResource type="JS" file="barChart.ide.js" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="CSS" file="barChart.ide.css" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="JS" file="barChart.runtime.js" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="CSS" file="barChart.runtime.css" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="JS" file="include/d3/d3.js" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="CSS" file="include/nvd3/nv.d3.css" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="JS" file="include/nvd3/nv.d3.js" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="JS" file="include/tw/twChart.js" description="" isDevelopment="false" isRuntime="true" />
+      </UIResources>
+    </Widget>
+    <Widget name="lineChart">
+      <UIResources>
+        <FileResource type="JS" file="lineChart.ide.js" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="CSS" file="lineChart.ide.css" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="JS" file="lineChart.runtime.js" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="CSS" file="lineChart.runtime.css" description="" isDevelopment="false" isRuntime="true" />
+      </UIResources>
+    </Widget>
+    <Widget name="timeSeriesChartV2">
+      <UIResources>
+        <FileResource type="JS" file="timeSeriesChartV2.ide.js" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="CSS" file="timeSeriesChartV2.ide.css" description="" isDevelopment="true" isRuntime="false" />
+        <FileResource type="JS" file="timeSeriesChartV2.runtime.js" description="" isDevelopment="false" isRuntime="true" />
+        <FileResource type="CSS" file="timeSeriesChartV2.runtime.css" description="" isDevelopment="false" isRuntime="true" />
+      </UIResources>
+    </Widget>
+  </Widgets>
+</Entities>
